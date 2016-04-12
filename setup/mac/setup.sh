@@ -1,8 +1,10 @@
-# zshellをデフォルトに設定
+# set zshell the default shell
 chsh -s /bin/zsh
 
-# zshell の設定
+# setup zshell
 wget https://gist.githubusercontent.com/mollifier/4979906/raw/43d1c77344dd59fa119ca5b75e7a54e01e668710/zshrc_useful.sh
 mv zshrc_useful.sh .zshrc
 sourc .zshrc
 
+# install git
+brew install git
