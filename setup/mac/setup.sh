@@ -8,3 +8,10 @@ sourc .zshrc
 
 # install git
 brew install git
+
+# install jenkins
+brew install jenkins
+
+# install lunchy
+brew install lunchy
+
